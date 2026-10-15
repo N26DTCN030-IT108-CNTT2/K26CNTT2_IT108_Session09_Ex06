@@ -22,13 +22,13 @@ Báo cáo tổng hợp dung lượng lưu trữ dữ liệu định kỳ cho nh�
 
 ## Phần 2. Triển khai file README.md hoàn chỉnh theo chuẩn Developer
 Bạn có thể copy toàn bộ nội dung dưới đây để tạo file README.md cho dự án của mình:
-# 🌾 Smart-Farm IoT & AI Management System 🚀
+# Smart-Farm IoT & AI Management System 🚀
 
 > *Giải pháp nông nghiệp thông minh tối ưu hóa nguồn lực và tự động hóa quy trình chăm sóc cây trồng dựa trên nền tảng trí tuệ nhân tạo.*
 
 ---
 
-## 📸 Sơ đồ hệ thống IPO (Input - Process - Output)
+## Sơ đồ hệ thống IPO (Input - Process - Output)
 
 ![Sơ đồ hệ thống Smart-Farm](https://example.com/images/smart-farm-ipo-diagram.png)
 
@@ -43,7 +43,7 @@ Bạn có thể copy toàn bộ nội dung dưới đây để tạo file README
 
 ---
 
-## 🛠️ Hướng dẫn cài đặt hệ thống
+## Hướng dẫn cài đặt hệ thống
 
 Đoạn mã cấu hình kết nối cảm biến cơ bản trên vi điều khiển:
 
@@ -60,9 +60,9 @@ if __name__ == "__main__":
         temp = doc_du_lieu_cam_bien()
         print(f"Nhiệt độ hiện tại từ trạm cảm biến: {temp}°C")
         time.sleep(5)
+```
 
 ---
-
 📊 Bảng tính toán dung lượng lưu trữ cảm biến (Dự kiến trong 1 năm)Loại Cảm BiếnTần suất gửi dữ liệuDung lượng / Bản tinDung lượng lưu trữ (1 Năm)Nhiệt độ & Độ ẩm1 phút / lần~64 Bytes~33.6 MBpH Đất & Ánh sáng5 phút / lần~64 Bytes~6.7 MBCamera giám sát1 giờ / lần~500 KB~4.38 GB
 
 ---
